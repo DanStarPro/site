@@ -1,0 +1,171 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.main-block {
+    background: url(./images/background.jpg) no-repeat;
+    background-size: cover;
+
+}
+
+.main-block-section {
+    padding-top: 286px;
+    padding-bottom: 206px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.main-title {
+    color: #FFF;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    font-family: Montserrat;
+    font-size: 79px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+
+}
+
+.main-subtitle {
+    color: #FFF;
+    font-family: Montserrat;
+    font-size: 27px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+}
+.main-button {
+    color: #1E2E3D;
+    font-family: Montserrat;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    margin-top: 58px;
+
+    width: 200px;
+    height: 70px;
+    flex-shrink: 0;
+    border-radius: 20px;
+    background: #FFF;
+}
+.about-me-block {
+    padding-top: 72px;
+    padding-bottom: 181px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.section-title-text {
+    color: #000;
+    font-family: Montserrat;
+    font-size: 37px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+.person-info-block {
+    max-width: 1380px;
+    display: flex;
+    justify-content: center;
+    gap: 97px;
+    margin: 90px 20px;
+}
+.person-info-area {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.person-info-text {
+    color: #000;
+    font-family: Montserrat;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-left: 97px;
+    margin-bottom: 40px;
+}
+.footer {
+    background: #1E2E3D;
+    padding-top: 113px;
+    padding-bottom: 123px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.footer-text-block {
+    margin-top: 25px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+}
+.footer-title {
+    color: #FFF;
+    font-family: Montserrat;
+    font-size: 35px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+.footer-text {
+    color: #FFF;
+    font-family: Montserrat;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+.footer-icons {
+    margin-top: 27px;
+    display: flex;
+    gap: 20px;
+}
+@media screen and (max-width: 900px) {
+    .person-info-block {
+        flex-direction: column;
+        margin-top: 50px;
+        gap: 60px
+    }
+    .main-title {
+        font-size: 30px;
+    }
+    .about-me-block {
+        padding-bottom: 50px;
+    }
+}
+@media screen and (max-width: 670px) {
+    .footer-text {
+        font-size: 17px;
+    }
+}
+@media screen and (max-width: 500px) {
+    .main.title {
+        font-size: 30px;
+    }
+    .main-subtitle {
+        font-size: 20px;
+    }
+    .section-title-text {
+        font-size: 30px;
+    }
+    .person-info-text {
+        font-size: 18px;
+    }
+    .footer-title {
+        font-size: 30px;
+    }
+    .footer-text {
+        font-size: 15px;
+    }
+    
+}
+
+
